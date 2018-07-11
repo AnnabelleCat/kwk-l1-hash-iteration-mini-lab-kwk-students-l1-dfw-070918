@@ -52,7 +52,11 @@ def iterate_through_keys
   
   summer_olympics[:Atlanta] = "1996"
   
-  puts summer_olympics .keys
+  summer_olympics .keys .each do |cities| #makes array with only keys
+    upcased cities = []
+    upcased cities << cities.upcase
+  end
+  
   
 end
 iterate_through_keys
