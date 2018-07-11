@@ -52,7 +52,7 @@ def iterate_through_keys
   
   summer_olympics[:Atlanta] = "1996"
   
-  summer_olympics_citie s= []
+  summer_olympics_cities = []
   summer_olympics each_key = summer_olympics_cities
   puts summer_olympics_cities
   end
