@@ -34,7 +34,7 @@ def iterate_through_hash
   
   summer_olympics[:Atlanta] = "1996"
   
-  summer_olympics.keys.each do |summer_olympics_cities, summer_olympics_years|
+  summer_olympics.each do |summer_olympics_cities, summer_olympics_years|
     puts "The #{summer_olympics_cities} summer olympics took place in #{summer_olympics_years}."
   end
 end
